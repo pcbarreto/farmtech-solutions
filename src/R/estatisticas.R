@@ -1,7 +1,7 @@
 # Script R para estatísticas básicas
 # Execute com: Rscript R/estatisticas.R
 
-caminho_arquivo <- file.path("dados", "dados_farmtech.csv")
+caminho_arquivo <- file.path("../dados", "dados_farmtech.csv")
 
 if (!file.exists(caminho_arquivo)) {
   stop("Arquivo dados/dados_farmtech.csv não encontrado. Exporte o CSV pelo programa Python primeiro.")
